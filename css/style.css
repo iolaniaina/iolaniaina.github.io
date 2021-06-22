@@ -3,7 +3,7 @@
 body { margin: 0; }
 
 /* GLOBAL COLORS */
-body { color: rgba(0, 0, 0, 0.8); }
+body { color: rgba(211, 137, 201); }
 a { color: rgba(0, 102, 204, 1); }
 a:hover { color: rgba(0, 51, 153, 1); }
 
@@ -25,16 +25,16 @@ img {
     display: inline-block;
     padding: 1em 2em;
     text-decoration: none;
-    background-color: rgba(0, 102, 204, .8);
+    background-color: rgba(211, 137, 201);
     color: white;
     border-radius: 5px;
 }
 .button:hover {
-    background-color: rgba(0, 102, 204, 1);
+    background-color: rgb(197, 83, 178);
     color: white;
 }
 .button.dark {
-    color: rgba(0, 102, 204, 1);
+    color: rgb(197, 64, 197);
     background-color: rgba(255, 255, 255,.8);
 }
 .button.dark:hover {
@@ -44,7 +44,7 @@ img {
 /* SITE STRUCTURE */
 
 header {
-    background-color: rgba(0, 102, 204, 1);
+    background-color: rgba(211, 137, 201);
     color: rgba(0, 0, 0, 0.8); 
     padding: 1em;
     display: grid;
@@ -88,7 +88,7 @@ main {
 
 /* HERO SECTION */
 .hero {
-    background-color: rgba(0, 102, 204, 1);
+    background-color: rgb(211, 137, 201);
     text-align: center;
     color: white;
     padding: 6em 1em;
